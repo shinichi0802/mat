@@ -1,0 +1,4 @@
+/config/target/
+/account-service/target/
+/auth-service/target/
+/registry/target/

@@ -1,0 +1,16 @@
+spring:
+  data:
+    mongodb:
+      host: localhost
+      username: mat
+      password: ${MONGODB_PASSWORD}
+      database: mat
+      port: 27017
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+
+server:
+  servlet:
+    context-path: /uaa
+  port: 5000
